@@ -1,0 +1,93 @@
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    padding: 12px 151px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    /* margin: 0 119px; */
+    z-index: 4;
+    width: auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5)
+}
+.head-left{
+    width: 25%;
+    height: 48px;
+    box-sizing: content-box;
+}
+.head-left h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: #212043;
+}
+.head-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 74%;
+}
+.head-middle{
+    padding: 0 12px;
+    border: 2px solid #212043;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-middle>i{
+    color: rgba(34,34,34,.64);;
+}
+.head-middle>input{
+    width: 100%;
+    border: none;
+    margin-left: 9px;
+    color: #212043;
+    font-size: 16px;
+    outline: none;
+}
+.head-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 24%;
+    margin-left: auto;
+}
+.head-right>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #212043;
+}
+.head-right>div>a>i{
+    font-size: 28px;
+    margin-bottom: 8px;
+    color: #212043;
+}
+.head-right>div>a{
+    font-size: 14px;
+    letter-spacing: -.2px;
+    line-height: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #212043;
+}
+.avatar{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    border: solid 2px #000;
+}
