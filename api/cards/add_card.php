@@ -22,3 +22,4 @@
     else{
         header("Location: $BASE_URL/card.php?error=1");
     }
+?>

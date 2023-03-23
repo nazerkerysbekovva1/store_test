@@ -22,7 +22,7 @@
                         <a href="<?=$BASE_URL?>/business-index.php">Товары</a>
                     </div>
                     <div>
-                        <a href="<?=$BASE_URL?>/business/clients.php">Клиенты</a>
+                        <a href="<?=$BASE_URL?>/business-index.php?header_menu=2">Клиенты</a>
                     </div>
                 <?php
                     } else{
@@ -36,6 +36,7 @@
                 <?php
                     }
                 ?>
+                <a href="<?=$BASE_URL?>/login-admin.php" class="btn">Админ</a>
             </div>
         </div>
     </header>

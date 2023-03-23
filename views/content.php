@@ -2,7 +2,7 @@
     include "config/db.php";
     include "config/baseurl.php";
 ?>
-<div class="content-inner">
+        <div class="content-inner">
                 <?php
                     $product_query = mysqli_query($con, "SELECT * FROM products");
                     while($row = mysqli_fetch_assoc($product_query)){  

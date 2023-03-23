@@ -64,6 +64,7 @@
                     ?>
                     <i class="fa-solid fa-cart-shopping"></i>
                     Корзина</a>
+                    <a href="<?=$BASE_URL?>/login-admin.php" class="btn">Админ</a>
                 </div>
             </div>
         </div>
